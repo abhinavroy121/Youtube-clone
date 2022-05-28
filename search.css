@@ -1,0 +1,154 @@
+body{
+    width: 100%;
+}
+#mainnavbar{
+    width: 100%;
+    height:10%;
+   display:flex;
+   justify-content: space-around;
+  background-color:white;
+   position:fixed;
+  top: 0;
+
+}
+#navbar{
+    width: 80%;
+    height:70px;
+    display:flex;
+    /* background-color:coral; */
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    justify-content: space-around;
+    background-color: white;
+}
+#sidenavbar{
+    width:13%;
+    height:400%;
+    background-color: white;
+    justify-content: start;
+    
+    /* background-color:tan; */
+}
+#left{
+    display:flex;
+    gap:20px;  
+}
+#left1{
+    margin-top: 20px;
+}
+#left2{
+    margin-top: 6px;
+}
+#side1 img{
+    margin-top: 18px;
+}
+#part1{
+    display:flex;
+    gap:20px;
+    justify-content: flex-start;
+    
+}
+#part2{
+    display:flex;
+    gap:20px;
+    justify-content: flex-start;
+    margin-top:-15px;
+}
+#part3{
+    display:flex;
+    gap:20px;
+    justify-content: flex-start;
+    margin-top:-15px;
+}
+#part4{
+    display:flex;
+    gap:20px;
+    justify-content: flex-start;
+    margin-top:-15px;
+    border-bottom: 1px solid lightgrey;
+}
+
+#side2{
+    margin-top: 10px;
+}
+#side2 img{
+    margin-top: 18px;
+}
+#one{
+    display:flex;
+    gap:20px;
+    justify-content: flex-start;
+    margin-top:-15px;
+}
+#two{
+    display:flex;
+    gap:20px;
+    justify-content: flex-start;
+    margin-top:-15px;
+}
+#three{
+    display:flex;
+    gap:20px;
+    justify-content: flex-start;
+    margin-top:-15px;
+}
+#four{
+    display:flex;
+    gap:20px;
+    justify-content: flex-start;
+    margin-top:-15px;
+}
+#five{
+    display:flex;
+    gap:20px;
+    justify-content: flex-start;
+    margin-top:-15px;
+}
+#center{
+    display:flex;
+    gap:2px;
+    margin:auto;
+}
+#center1{
+    margin-top: 10px;
+    
+}
+#search{
+    width:450px;
+    height:35px;
+}
+#center2{
+    margin-top: 10px;
+    display:flex;
+    gap:20px;
+}
+#right{
+    width:15%;
+    display: flex;
+    justify-content: space-around;;
+    margin-top:25px;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+
+
+/*  searchitems appennded */
+
+#searchitems{
+    width:85%;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:4px;
+    margin-top:8%;
+
+    margin-left:16%;
+
+}
+#innerdiv{
+    width:100%;
+    height:auto;
+    /* border:1px solid black; */
+    /* background-color: black; */
+}
